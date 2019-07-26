@@ -60,6 +60,11 @@ nav > ul > li > a:last-child {
   margin-right: 2em;
 }
 
+nav > ul > li > a:hover {
+  color: blue;
+  font-size: 1.5em;
+}
+
 #firstDiv {
   clear: both;
   margin: 120px auto 50px auto;
@@ -169,12 +174,12 @@ section {
 }
 
 .bigimage > span {
-  font-size: 1em;
+  font-size: 1.5em;
   word-spacing: 0.2em;
 }
 
 .grid {
-  margin: 0 auto;
+  margin: 5em auto 0;
   width: 70%;
   padding: 1em;
   display: grid;
@@ -234,6 +239,20 @@ footer {
   position: absolute;
   bottom: 2em;
   left: 40%;
+}
+
+.blink {
+  animation-name: blinkingText;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blinkingText {
+  0% { color: black; }
+  49% { color:red; }
+  50% { color: forestgreen; }
+  99% { color: blue; }
+  100% { color: black; }
 }
 
 #navFooter ul {
