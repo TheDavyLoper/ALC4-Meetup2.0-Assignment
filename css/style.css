@@ -56,13 +56,17 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav > ul > li > a:last-child {
   margin-right: 2em;
 }
 
-nav > ul > li > a:hover {
+.hover:hover {
   color: blue;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #firstDiv {
@@ -395,7 +399,7 @@ footer {
   #copyRights {
     position: absolute;
     bottom: 2em;
-    left: 25%;
+    left: 20%;
   }
 }
 
